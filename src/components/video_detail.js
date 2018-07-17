@@ -5,7 +5,7 @@ const VideoDetail = (props) => {
     if (props.selectedVideo === null)
         return <div>Loading..</div>
         
-    const url =`http://www.youtube.com/embed/${props.selectedVideo.id.videoId}`
+    const url =`https://www.youtube.com/embed/${props.selectedVideo.id.videoId}`
 
     return(
         <div className= "col-md-8" style={{margin: "auto 0"}}>
